@@ -23,8 +23,8 @@ export async function run() {
     const paragraph = context.document.body.insertParagraph("黄河之水天上来!", Word.InsertLocation.end);
 
     // change the paragraph color to blue.
-    paragraph.font.color = "green";
-    paragraph.font.name = "微软雅黑";
+    paragraph.font.color = "cyan";
+    paragraph.font.name = "仿宋";
 
     await context.sync();
   });
