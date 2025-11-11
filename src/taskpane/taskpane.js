@@ -24,8 +24,8 @@ export async function run() {
 
     // change the paragraph color to blue.
     paragraph.font.color = "black";
-    paragraph.font.name = "仿宋";
-    paragraph.font.size = 20;
+    paragraph.font.name = "楷体";
+    paragraph.font.size = 30;
 
     await context.sync();
   });
