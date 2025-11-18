@@ -20,12 +20,12 @@ export async function run() {
      */
 
     // insert a paragraph at the end of the document.
-    const paragraph = context.document.body.insertParagraph("相逢何必曾相识", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("秋天是肃杀的季节", Word.InsertLocation.end);
 
     // change the paragraph color to blue.
     paragraph.font.color = "black";
-    paragraph.font.name = "楷体";
-    paragraph.font.size = 40;
+    paragraph.font.name = "微软雅黑";
+    paragraph.font.size = 22;
 
     await context.sync();
   });
