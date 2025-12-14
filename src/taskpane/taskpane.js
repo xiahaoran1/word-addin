@@ -20,7 +20,7 @@ export async function run() {
      */
 
     // insert a paragraph at the end of the document.
-    const paragraph = context.document.body.insertParagraph("秋天是肃杀的季节", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("秋天是肃杀的季节-周树人", Word.InsertLocation.end);
 
     // change the paragraph color to blue.
     paragraph.font.color = "black";
